@@ -111,3 +111,6 @@ Note: 動作確認時のサーバの起動は `./Samples/TypeScript/Demo/package
 
 ## demo 路径
 /Samples/TypeScript/Demo/
+
+## fork 
+forked from https://github.com/Live2D/CubismWebFramework
