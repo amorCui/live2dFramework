@@ -108,3 +108,6 @@ NOTE: デバック用の設定は、`.vscode/launch.json` に記述していま�
 | Windows | Mozilla Firefox | 72.0.2 |
 
 Note: 動作確認時のサーバの起動は `./Samples/TypeScript/Demo/package.json` の `serve` スクリプトを使用して行っています。
+
+## demo 路径
+/Samples/TypeScript/Demo/
