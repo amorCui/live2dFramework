@@ -218,7 +218,7 @@ export class LAppDelegate {
 		gl.shaderSource(fragmentShaderId, fragmentShader);
 		gl.compileShader(fragmentShaderId);
 
-		// 创建程序对象
+		// 创建着色器程序对象
 		const programId = gl.createProgram();
 		gl.attachShader(programId, vertexShaderId);
 		gl.attachShader(programId, fragmentShaderId);
@@ -226,7 +226,7 @@ export class LAppDelegate {
 		gl.deleteShader(vertexShaderId);
 		gl.deleteShader(fragmentShaderId);
 
-		// 友情链接
+		// 将着色器用于链接
 		gl.linkProgram(programId);
 
 		gl.useProgram(programId);
